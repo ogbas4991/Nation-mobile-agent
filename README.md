@@ -1,36 +1,66 @@
-# Mobile Agent
+# PAPYLO J AGENT
 
-Mobile Agent is an open-source AI agent built specifically for mobile devices that runs entirely on your phone.
+> A mobile-first AI workspace for building, automating, and working with local intelligence.
 
-## Demo
+PAPYLO J AGENT turns an Android phone into an AI workstation. It combines chat, on-device models, persistent memory, files, MCP tools, skills, scheduled work, and direct device access in one interface.
 
-[![Mobile Agent demo](https://img.youtube.com/vi/_P_SQ0MW-aU/maxresdefault.jpg)](https://youtu.be/_P_SQ0MW-aU?si=klxA4b7RU3Y2j5iy)
+## Product direction
 
-## Features
+The new interface is organized around **tasks**, not a generic chat list:
 
-- On-device models that can run completely offline
-- Runs completely on-device
-- No external server required
-- MCP support
+- **Agent** — run multi-step AI tasks with Build or Plan modes.
+- **Library** — keep reusable prompts, skills, and knowledge in one place.
+- **Files & memory** — work with phone files and persistent agent context.
+- **Automations** — schedule recurring agent work and background runs.
+- **Local-first runtime** — prefer on-device/local providers when configured.
+- **MCP + skills** — connect tools and extend what the agent can do.
+- **Human approval** — pause sensitive actions for confirmation.
+
+## Design system
+
+The redesigned mobile shell uses a compact workspace sidebar, task-oriented navigation, clear runtime status, stronger visual hierarchy, and a focused composer. The goal is to make the app feel like a serious mobile development/automation workstation rather than a clone of a conventional chat app.
+
+## Core capabilities
+
+- On-device AI models
+- Local and remote AI provider support
+- MCP server integration
 - Skills system
-- Persistent memory
-- Multi-modal support
-- Direct access to phone's internal storage
-- Android permission-based access
+- Persistent SQLite-backed memory
+- Multi-step agent execution
+- Build and Plan modes
+- File and workspace access
+- Scheduled/background agent runs
+- Notifications and run status
+- Conversation pinning, rename, and deletion
+- Multi-modal attachments
 
-## Installation
+## Development
 
-The application is distributed through GitHub Releases.
+```bash
+pnpm install
+pnpm start
+```
 
-1. Download the latest APK from the Releases page.
-2. Install the APK on your Android device.
-3. Grant the required permissions.
-4. Start using Mobile Agent.
+Android development:
 
-## Contributing
+```bash
+pnpm android
+```
 
-Contributions are welcome. Feel free to open an issue for bug reports, feature requests, or submit a pull request if you'd like to contribute.
+Quality checks:
+
+```bash
+pnpm lint
+pnpm test
+```
+
+## Branding
+
+- Product: **PAPYLO J AGENT**
+- Package slug: `papylo-j-agent`
+- Android application ID: `com.papylo.jagent`
 
 ## License
 
-This project is licensed under the MIT License.
+MIT
