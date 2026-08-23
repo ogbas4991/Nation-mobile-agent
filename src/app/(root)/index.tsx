@@ -30,7 +30,7 @@ export default function AgentHome() {
       <View className="flex-row items-center justify-between border-b border-border px-5 py-4 dark:border-border-dark">
         <View className="flex-row items-center gap-3">
           <View className="h-10 w-10 items-center justify-center rounded-2xl bg-primary"><Sparkles color={theme.background} size={20} /></View>
-          <View><Text className="font-sans text-base font-bold text-foreground dark:text-foreground-dark">PAPYLO J AGENT</Text><Text className="font-sans text-xs text-muted-foreground dark:text-muted-foreground-dark">Your local AI workspace</Text></View>
+          <View><Text className="font-sans text-base font-bold text-foreground dark:text-foreground-dark">PAPYLO J AGENT</Text><Text className="font-sans text-xs text-muted-foreground dark:text-muted-foreground-dark">Local AI workspace</Text></View>
         </View>
         <Pressable accessibilityLabel="New task" className="h-10 w-10 items-center justify-center rounded-xl bg-muted dark:bg-muted-dark" onPress={() => createConversation()}><Plus color={theme.text} size={20} /></Pressable>
       </View>
