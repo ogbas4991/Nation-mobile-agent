@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - rebrand/papylo-j-agent
   pull_request:
     branches:
       - main
