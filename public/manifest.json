@@ -1,0 +1,26 @@
+{
+  "name": "PAPYLO J AGENT",
+  "short_name": "PAPYLO J",
+  "description": "A private, mobile-first AI workspace for building, coding, files, memory, MCP and automation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1020",
+  "theme_color": "#6366F1",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
