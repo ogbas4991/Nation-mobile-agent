@@ -1,0 +1,19 @@
+{
+  "buildCommand": "pnpm add expo-sqlite@57.0.1 --save-exact --ignore-scripts && npx expo export --platform web",
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cross-Origin-Embedder-Policy",
+          "value": "credentialless"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        }
+      ]
+    }
+  ]
+}
